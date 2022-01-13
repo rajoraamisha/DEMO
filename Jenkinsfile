@@ -1,16 +1,16 @@
-Pipeline{
-  agent any 
-  Stages{
-  stage("One"){
-    Steps{
-      echo"First"
+pipeline{
+  agent any
+  stages{
+    stage('one'){
+      steps{
+        echo 'first'
+      }
     }
-  }
-  stage("Two"){
-    Steps{
-      echo"Second"
+    stage('two'){
+      steps{
+        echo 'second'
+      }
     }
-  }
   }
 }
   
