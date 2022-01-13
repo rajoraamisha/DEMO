@@ -1,5 +1,6 @@
 Pipeline{
   agent any 
+  Stages{
   stage("One"){
     Steps{
       echo"First"
@@ -9,6 +10,7 @@ Pipeline{
     Steps{
       echo"Second"
     }
+  }
   }
 }
   
